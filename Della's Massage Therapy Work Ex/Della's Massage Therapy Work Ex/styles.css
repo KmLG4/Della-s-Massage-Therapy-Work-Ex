@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to left, #D8C8FF, #E0D2FF, #E8DCFF, #F0E6FF);
+    background-image: linear-gradient(to left, #BE00BE, #F5C6F5);
     color: white;
     text-align: center ;
     padding: 1rem;
@@ -28,11 +28,12 @@ header {
 }
 
 nav {
-    background-image: linear-gradient(to left, #D8C8FF, #E0D2FF, #E8DCFF, #F0E6FF);
+    background-image: linear-gradient(to left, #BE00BE, #F5C6F5);
     padding: 10px;
     text-align: center;
     border-bottom: 1px;
     margin-top: 20px;
+    
     
 }
 
@@ -41,7 +42,9 @@ nav a {
     text-decoration: none;
     font-weight: bold;
     margin: 0 10px;
-    margin-left: 200px;
+    margin-right: 200px;
+    font-weight: bold;
+    
     
     
 }
@@ -71,13 +74,11 @@ footer {
 img {
     max-width: 200px;
     max-height: 200px;
-    float: right;
-}
-picture {
-    right: 100px;
+    float: left;
 }
 h1 {
-    margin-left: 200px;
+    margin-right: 200px;
     margin-top: 40px;
     font-size:2.2rem;
+    font-weight: bold;
 }
