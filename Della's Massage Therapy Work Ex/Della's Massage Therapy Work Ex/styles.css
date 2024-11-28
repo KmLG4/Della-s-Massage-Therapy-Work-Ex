@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@ body {
 
 header {
     background-image: linear-gradient(to left, #D8C8FF, #E0D2FF, #E8DCFF, #F0E6FF);
-    color: white;
+    color: #36454F;
     text-align: center ;
     padding: 1rem;
     position: sticky;
@@ -30,23 +31,19 @@ header {
 nav {
     background-image: linear-gradient(to left, #D8C8FF, #E0D2FF, #E8DCFF, #F0E6FF);
     padding: 10px;
-    text-align: center;
+    width: auto;
     border-bottom: 1px;
     margin-top: 20px;
-    
-    
+    margin-right: 200px;
 }
 
 nav a {
-    color: #333;
-    text-decoration: none;
+    color: #36454F;
+    text-decoration:solid;
     font-weight: bold;
     margin: 0 10px;
-    margin-right: 200px;
+    text-align: right;
     font-weight: bold;
-    
-    
-    
 }
 
 main {
@@ -59,6 +56,7 @@ main {
 
 section {
     margin: 20px 0;
+    color: #36454F;
 }
 
 footer {
@@ -75,6 +73,8 @@ img {
     max-width: 200px;
     max-height: 200px;
     float: left;
+    content:icon;
+    justify-content: space-around;
 }
 h1 {
     margin-right: 200px;
@@ -82,3 +82,35 @@ h1 {
     font-size:2.2rem;
     font-weight: bold;
 }
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 180px); 
+    grid-template-rows: repeat(3, 100px); 
+    grid-gap: 10px;
+    color-interpolation-filters: auto;
+    border-style: solid;
+    border-color: #D8C8FF;
+    border-width: 7px;
+    
+    width: 600px;
+    height: 460px;
+  }
+  .treatment_options {
+    width: 100%;
+    height: auto;
+    border: 5px solid #D8C8FF;
+    padding: 10px;
+    
+  }
+
+  tr, th {
+    border: 2px solid #D8C8FF;
+    font-size: 18px ;
+    padding: 3px;
+  }
+  td {
+    border: 1px solid #D8C8FF;
+    text-align: center;
+    font-size: 16px;
+    padding: 1px;
+  }
