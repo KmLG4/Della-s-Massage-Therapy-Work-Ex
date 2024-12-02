@@ -48,10 +48,8 @@ nav a {
 
 main {
     flex: 1;
-    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    width: 100%;
 }
 
 section {
@@ -84,8 +82,8 @@ h1 {
 }
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(3, 180px); 
-    grid-template-rows: repeat(3, 100px); 
+    grid-template-columns: repeat(4, 180px); 
+    grid-template-rows: repeat(4, 100px); 
     grid-gap: 10px;
     color-interpolation-filters: auto;
     border-style: solid;
@@ -100,6 +98,7 @@ h1 {
     height: auto;
     border: 5px solid #D8C8FF;
     padding: 10px;
+    min-height: 100px; 
     
   }
 
@@ -113,4 +112,24 @@ h1 {
     text-align: center;
     font-size: 16px;
     padding: 1px;
+    min-height: 100px;
+    height: 100px;
   }
+
+.treatments {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.contacts {
+    width: 1200px;
+}
+
+.main {
+    width: 1200px;
+}
+
+.book {
+    width: 1200px;
+}
