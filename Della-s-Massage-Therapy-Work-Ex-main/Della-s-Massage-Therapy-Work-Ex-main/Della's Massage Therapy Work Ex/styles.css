@@ -1,0 +1,316 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+header {
+    background-image: linear-gradient(to left, #D8C8FF, #E0D2FF, #E8DCFF, #F0E6FF);
+    color: #36454F;
+    text-align: center ;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+    
+}
+
+nav {
+    background-image: linear-gradient(to left, #D8C8FF, #E0D2FF, #E8DCFF, #F0E6FF);
+    padding: 10px;
+    width: auto;
+    border-bottom: 1px;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+
+nav a {
+    color: #36454F;
+    text-decoration:solid;
+    font-weight: bold;
+    margin: 0 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin: 20px 0;
+    color: #36454F;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1);
+}
+
+img {
+    max-width: 200px;
+    max-height: 200px;
+    float: left;
+    content:icon;
+    justify-content: space-around;
+}
+
+h1 {
+    margin-right: 200px;
+    margin-top: 40px;
+    font-size:2.2rem;
+    font-weight: bold;
+}
+
+.treatment_options {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    min-height: 100x; 
+    border-spacing: 0;
+    
+}
+
+th {
+    border: 4px solid #D8C8FF;
+    border-spacing: -2;
+    font-size: 18px ;
+    padding: 6px;
+    overflow: hidden;
+}
+
+td {
+    border: 4px solid #D8C8FF;
+    border-spacing: -2;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    min-height: 90px;
+    height: 100px;
+}
+
+.treatments {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+.contacts {
+    width: 1200px;
+}
+
+.main {
+    width: 1200px;
+    padding: 10px;
+    margin: auto;
+    height: auto;
+}
+
+.book {
+    width: 1200px;
+}
+
+.contact_information {
+    width: 100%;
+    height: auto;
+    border-spacing: 0;
+    padding: 10px;
+    min-height: 100px; 
+}
+
+.Cancellation_Policy {
+    font-size: 18px;
+    font-weight: bold;
+    color: #36454F;
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.Cancel_Title {
+    font-size: 48px;
+    margin-bottom: -5px ;
+    margin-top: -5px;
+}
+
+.Contact_Exceptions {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    color: #36454F;
+}
+
+.Exception_Title {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.special1 {
+    border-top-left-radius: 15%;
+}
+
+.special2 {
+    border-top-right-radius: 15%;
+}
+
+.special3 {
+    border-bottom-left-radius: 15%;
+}
+
+.special4 {
+    border-bottom-right-radius: 15%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.main_page_para {
+    font-size: 1.1rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #36454F;
+    font-family: bradley hand, cursive;
+}
+
+.welcome {
+    background-color: lavenderblush;
+    border-radius: 20%;
+    padding: 10px;
+    margin: 10px;
+    width: 1400px;
+    font-family: bradley hand, cursive;
+
+}
+
+.about {
+    padding: 16px;
+    width: 1669px;
+}
+
+.about_1 {
+    background-color: lavenderblush;
+    padding: 10px;
+    display: inline-block;
+    width: 800px;
+    left: 16px;
+    position: absolute;
+    height: 650px;
+    margin: 0 auto;
+    border-radius: 5%;
+    font-family: Bradley Hand, cursive;
+
+}
+
+.about_2 {
+    vertical-align: middle;
+    position: absolute;
+    bottom: 346px;
+    background-color: lavenderblush;
+    padding: 10px;
+    display: inline-block;
+    width: 800px;
+    right: 16px;
+    position: absolute;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 5%;
+    font-family: Bradley Hand, cursive;
+
+}
+
+.about_us_page {
+    width: 100%;
+}
+
+.about_me_1 {
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #36454F;
+    font-family: Bradley Hand, cursive;
+}
+
+.abouthead1 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #36454F;
+    font-family: Bradley Hand, cursive;
+
+}
+
+.h2ab {
+    font-family: bradley hand, cursive;
+}
+
+.wio {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: #36454F;
+    font-family: Bradley Hand, cursive;
+}
+
+.about_me_2 {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #36454F;
+    font-family: Bradley Hand, cursive;
+    vertical-align: middle;
+    
+    
+}
+
+.main_page_para1 {
+    font-size: 1.3rem;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    text-align: center;
+    color: #36454F;
+    font-weight: bold;
+
+    font-family: bradley hand, cursive;
+}
+
+.main1 {
+    width: 1400px;
+}
